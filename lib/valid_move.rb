@@ -6,3 +6,5 @@
 def valid_move?(board, index)
   board[index] && board[index].empty?
 end
+
+valid_move?([" ", " ", " ", " ", " ", " ", " ", " ", " "], 0)
